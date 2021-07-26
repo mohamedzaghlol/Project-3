@@ -1,0 +1,31 @@
+body{
+    font-family: 'segoe ui light'
+}
+h1{
+    text-align: center;
+}
+.o{
+    color:#09c;
+    font-size: 80px
+}
+.product{
+    width:32.6%;
+    display: inline-block;
+    text-align: center
+}
+.product img{
+    width: 100%
+}
+.product button{
+    background-color: transparent;
+    border:2px solid #09c;
+    padding:10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s , border 0.3s ;
+}
+.product button:hover{
+
+    background-color: #09c;
+    border: 2px solid #fff ;
+    color: #fff;
+}
